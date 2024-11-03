@@ -1,0 +1,381 @@
+header{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #2d72d8;
+}
+
+header {
+    text-align:end;
+    padding: 40px;
+    background-color: #eee;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 15;
+    background-color: #2794be; 
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #40bfe2;
+}
+
+/* Podcast Link Below Navigation */
+.podcast-link-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.podcast-link {
+    font-size: 1.1em;
+    color: #2794be;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid #2794be;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.podcast-link:hover {
+    background-color: #2794be;
+    color: white;
+}
+
+/* News Section Layout */
+.news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.news-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* News Boxes */
+.news-box, .news-box1 {
+    width: 48%; /* Smaller boxes, side by side */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.news-box img, .news-box1 img {
+    width: 100%; /* Ensures the images take the full width of the box */
+    height: auto; /* Proportional height */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Text Styling in News Boxes */
+.news-box h4, .news-box1 h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.news-box p, .news-box1 p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .news-box, .news-box1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+main {
+    padding: 20px;
+}
+img{
+    width:600px;
+    height:400px;
+}
+.p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gold;
+    font-style: oblique;
+}
+button{
+    background-color:gold;
+}
+
+.book-sample {
+    padding: 1rem;
+}
+
+.book-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between the image and text */
+}
+
+.book-image {
+    max-width: 50%; /* Adjust max-width to give more space to the image */
+    height: auto; /* Maintain aspect ratio */
+    flex: 1; /* Make sure it takes up a good amount of space */
+    margin-top: 1mm; /* Move the image down by 1mm */
+}
+.book-image1 {
+    max-width: 30%; /* Adjust max-width to give more space to the image */
+    height: 500px; /* Maintain aspect ratio */
+    flex: 1; /* Make sure it takes up a good amount of space */
+    margin-top: 1mm; /* Move the image down by 1mm */
+}
+
+.book-text {
+    flex: 2; /* Make the text box take up more space compared to the image */
+    max-width: 50%; /* Limit the maximum width of the text box */
+    text-align: left; /* Align text to the left */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+
+
+footer {
+
+    text-align:center;
+    padding: 10px;
+    background-color: #fffdfd;
+    position:relative;
+    bottom: 2px;;
+    width: 100%;
+    
+}
+body {
+    color: #a2d9f7; /* Hier kannst du eine Farbe nach deiner Wahl verwenden */
+}
+
+
+/* Ändere die Farbe der Überschriften */
+h2 {
+    margin-top:60px;
+    color:#0f1011;
+    text-shadow: #eee;
+   
+
+     /* Beispiel für eine andere Farbe für Überschriften */
+}
+#attention{
+    color:red;
+}
+
+td{
+    color:#0f1011;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    background-color: #2794be;
+    color:#eee
+}
+
+/* Ändere die Farbe der normalen Absatztexte */
+p {
+    color: #070808; /* Beispiel für eine andere Farbe für normalen Text */
+}
+
+/* Ändere die Farbe der Links */
+a {
+    color: #a2d9f7; /* Beispiel für eine andere Farbe für Links */
+}
+ h3{
+    margin-top:60px;
+    color:aliceblue;
+    text-shadow: #eee;
+    background-color: #a2d9f7;
+ }
+
+
+ .header-with-bg {
+    background-image: url('KTS\ LOGO.jpg'); /* Path to your background image */
+    background-size:contain; /* Reduced size from 5cm to 3cm */
+    background-repeat:repeat; /* Prevent image from repeating */
+    background-position: center; /* Center the image */
+    color: #fff; /* Text color on the background */
+    text-align: center; /* Center the text */
+    padding: 90px 5px; /* Inner padding for the header content */
+    height: 1px;
+}
+.header-with-book {
+    background-image: url('KuscheltiershowforDummiesBuch.png'); /* Path to your background image */
+    background-size:contain; /* Reduced size from 5cm to 3cm */
+    background-repeat:initial; /* Prevent image from repeating */
+    background-position: center; /* Center the image */
+    color: #fff; /* Text color on the background */
+    text-align: center; /* Center the text */
+    padding: 100px 10px; /* Inner padding for the header content */
+    height: 10px;
+}
+.news-section {
+    display: flex;
+    flex-direction: column;
+}
+.news-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.news-box {
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.news-box1 {
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.news-box img {
+    max-width: 70%;
+    height:550px;
+    margin-bottom: 10px;
+}
+.news-box1 img {
+    max-width: 100%;
+    height:550px;
+    margin-bottom: 10px;
+}
+.news-box2 {
+    width: 20%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.title-text {
+    /* Zusätzliche Stile für den Text, wenn nötig */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.781); /* Beispiel für Schatteneffekt für den Text */
+}
+.search-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    z-index: 3;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    float: left;
+    width: 195px; /* Adjust as needed */
+    background: #f1f1f1;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-container button {
+    float: left;
+    padding: 5px 10px;
+    background: #2794be;
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; 
+   
+}
+
+
+.search-container button:hover {
+    background: #40bfe2;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    width: calc(33.33% - 20px);
+    min-width: 250px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 150px;
+    border-radius: 0%;
+    object-fit:contain;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

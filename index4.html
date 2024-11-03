@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Originals - Show dates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="index" href="home"> 
+</head>
+<body>
+    <header class="header-with-bg">
+        <div class="header-content">
+            <div class="title-text">
+                <h2>Originals</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">About Us</a></li>
+            <li><a href="index2.html">Show dates</a></li>
+            <li><a href="index3.html">Podcast</a></li>
+            <li><a href="index4.html">Originals</a></li>
+            <li><a href="index5.html">Fairy tales</a></li>
+            <li><a href="index6.html">City</a></li>
+            <li><a href="index7.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="showdates">
+            <div class="content-wrapper">
+                <!-- Left side: Image -->
+                <div class="left-side">
+                    <img src="KuscheltiershowOriginal.png" alt="Kuscheltiershow Originals Image" class="show-image">
+                </div>
+                <!-- Right side: Show details -->
+                <div class="right-side">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Show</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>What's going on?</td>
+                                <td>31.10.2024</td>
+                            </tr>
+                            <tr>
+                                <td>Pferdi on stage &#x1F3A0</td>
+                                <td>3.11.2024</td>
+                            </tr>
+                            <tr>
+                                <td>Christmas Special &#x1F384</td>
+                                <td>23.12.2024</td>
+                            </tr>
+                            <tr>
+                                <td>Christmas Special 2 &#x1F386 </td>
+                                <td>27.12.2024</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: grid;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Main layout: Left and Right side */
+        .content-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+        }
+
+        .left-side {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .right-side {
+            flex: 1;
+        }
+
+        img.show-image {
+    max-width: 300px; /* Set a fixed smaller size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+        /* Styling for the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2794be;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+            transform: scale(1.02);
+            transition: all 0.2s ease-in-out;
+        }
+
+        tr td {
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <footer>
+        <p>Lots of love, <br> xoxo Kuscheltiershow </p>
+        <p>&copy; 2024 KTS. All rights reserved.</p>
+    </footer>
+</body>
+</html>

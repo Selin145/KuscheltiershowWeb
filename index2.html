@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show dates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="index" href="home"> 
+</head>
+<body>
+    <header class="header-with-bg">
+        <div class="header-content">
+            <div class="title-text">
+                <h2>Show dates</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">About Us</a></li>
+            <li><a href="index2.html">Show dates</a></li>
+            <li><a href="index3.html">Podcast</a></li>
+            <li><a href="index4.html">Originals</a></li>
+            <li><a href="index5.html">Fairy tales</a></li>
+            <li><a href="index6.html">City</a></li>
+            <li><a href="index7.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Show</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Originals</td>
+                <td>31.10.2024</td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>1.11.2024</td>
+            </tr>
+            <tr>
+                <td>Originals</td>
+                <td>3.11.2024</td>
+            </tr>
+            <tr>
+                <td>Podcast Ep.5</td>
+                <td>5.11.2024</td>
+            </tr>
+            <tr>
+                <td>Fairy tales</td>
+                <td>20.11.2024</td>
+            </tr>
+            <tr>
+                <td>Originals</td>
+                <td>22.12.2024</td>
+            </tr>
+            <tr>
+                <td>Originals</td>
+                <td>27.12.2024</td>
+            </tr>
+            <tr>
+            <tr>
+                <td>Fairy tales</td>
+                <td>28.02.2025</td>
+            </tr>
+                <td>Kuscheltiershow movie - The Roadtrip</td>
+                <td>31.08.2025</td>
+            </tr>
+           
+            <tr>
+                <td>"KTS for Dummies" book release</td>
+                <td>01.09.2025</td>
+            </tr>
+        </tbody>
+    </table>
+    <main>
+        <section id="showdates">
+            <div class="show-list"></div>
+        </section>
+    </main>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: grid;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 50px auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2794be;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+            transform: scale(1.02);
+            transition: all 0.2s ease-in-out;
+        }
+
+        tr td {
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <footer>
+        <p>Lots of love, <br> xoxo Kuscheltiershow </p>
+        <p>&copy; 2024 KTS. All rights reserved.</p>
+    </footer>
+</body>
+</html>

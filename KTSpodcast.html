@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Podcast - Video Uploads</title>
+    
+</head>
+<body>
+    <header class="header-with-bg">
+        <div class="header-content">
+            <div class="title-text">
+                <h2>Podcast - Video Uploads &#x1F3A4;</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">About Us</a></li>
+            <li><a href="index2.html">Show dates</a></li>
+            <li><a href="index3.html">Podcast</a></li>
+            <li><a href="index4.html">Originals</a></li>
+            <li><a href="index5.html">Fairy Tales</a></li>
+            <li><a href="index6.html">City</a></li>
+            <li><a href="index7.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="videos">
+            <h3>Pocast Video Collection </h3>
+            <div class="video-gallery">
+                <!-- Video 1 -->
+                <div class="video-item">
+                    <h4>Vorstellungsrunde #1</h4>
+                    <video controls width="320" height="240">
+                        <source src="videos/fairytale1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="video-item">
+                    <h4>Couple Q&A</h4>
+                    <video controls width="320" height="240">
+                        <source src="videos/fairytale2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <!-- Video 3 -->
+                <div class="video-item">
+                    <h4>Vorstellungsrunde #2</h4>
+                    <video controls width="320" height="240">
+                        <source src="videos/fairytale3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: cornflowerblue;
+        }
+
+        header {
+            background-color:cornflowerblue;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 15;
+    background-color:cornflowerblue; 
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color:hotpink;
+}
+
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .video-item {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-item h4 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: hotpink;
+        }
+
+        video {
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+    <footer>
+        <p>Lots of love, <br> xoxo Kuscheltiershow </p>
+        <p>&copy; 2024 KTS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
